@@ -17,6 +17,7 @@ function increaseRankBy(n) {
       let child = master[a].children
    for (let y = 0, z = child.length; y<z;y++) {
      child[y] = child[y].innerHTML
+     return child
    }
     }
       
