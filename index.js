@@ -11,8 +11,7 @@ function increaseRankBy(n) {
       Rlist[i].innerHTML = parseInt(Rlist[i].innerHTML) + n;
     }
   }
-  function DeepestChild() {
-       const master = document.querySelectorAll('#grand-node');
+  functlet master = document.querySelectorAll('#grand-node');
     
       const Deepchild = master.children[master.length]
       
