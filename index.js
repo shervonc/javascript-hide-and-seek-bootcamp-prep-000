@@ -17,9 +17,9 @@ function increaseRankBy(n) {
   
   while (child){
     master = child
-    childNode = node.children[0];
+    child = master.children[0];
   }
-  return node;
+  return master;
 }
     
     
