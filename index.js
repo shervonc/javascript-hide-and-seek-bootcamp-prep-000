@@ -16,8 +16,7 @@ function increaseRankBy(n) {
     
       const Deepchild = master.children[master.length]
       
-      for ( let x =0,y=Deepchild.length; x<y;x++) {
-      return Deepchild[x].innerHTML
+      return Deepchild.innerHTML
     }
-  }
-  }
+  
+  
