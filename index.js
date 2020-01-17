@@ -11,17 +11,16 @@ function increaseRankBy(n) {
       Rlist[i].innerHTML = parseInt(Rlist[i].innerHTML) + n;
     }
   }
-  function DeepestChild() {
-        let master = document.querySelectorAll('#grand-node');
-    for (let a = 0;a < master.length;a++) {
-      let child = master[a].children
-   for (let y = 0, z = child.length; y<z;y++) {
-     child[y] = child[y].innerHTML
-     return child
-   }
-    }
-      
-    }
+  function deepestChild(){
+  var master = document.getElementById('grand-node')
+  var child = master.children[0]
+  
+  while (child){
+    master = child
+    childNode = node.children[0];
+  }
+  return node;
+}
     
     
   
